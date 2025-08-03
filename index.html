@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Car Efficiency in 2017</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="https://unpkg.com/d3-annotation"></script>
+</head>
+<body>
+  <div id="vis-container">
+    <h1>Car Efficiency in 2017</h1>
+    <div id="scene-buttons">
+      <button id="scene1">Scene 1: Overview</button>
+      <button id="scene2">Scene 2: Regions</button>
+      <button id="scene3">Scene 3: Outliers</button>
+      <button id="scene4">Explore</button>
+    </div>
+    <svg id="chart" width="800" height="500"></svg>
+    <div id="region-filter" style="display:none;">
+      <label for="regionSelect">Filter by region:</label>
+      <select id="regionSelect">
+        <option value="All">All</option>
+        <option value="USA">USA</option>
+        <option value="Europe">Europe</option>
+        <option value="Japan">Japan</option>
+      </select>
+    </div>
+  </div>
+  <script src="https://unpkg.com/d3-svg-annotation@2.5.1/d3-annotation.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

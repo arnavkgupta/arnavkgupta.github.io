@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  #scene-buttons {
+    margin-bottom: 15px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  
+  svg {
+    border: 1px solid #ccc;
+  }
+  
+  .annotation-note {
+    font-size: 12px;
+  }
